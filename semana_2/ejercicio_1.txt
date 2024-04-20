@@ -1,0 +1,30 @@
+Inicio
+Definir precio_producto
+Definir descuento
+Definir precio_final
+Mostrar "Ingrese el precio del producto: "
+Pedir precio_producto
+Si (precio_producto < 100) entonces:
+	a.descuento = precio_producto * 0.02
+Sino:
+	a.descuento = precio_producto * 0.10
+FinSi
+precio_final = precio_producto - descuento
+Mostar "El precio final del producto es: "
+Mostrar precio_final
+Fin
+
+
+Inicio
+Definir tiempo_en_segundos
+Definir segundos_faltantes
+Mostrar "Ingrese la cantidad de segundos"
+Pedir tiempo_en_segundos
+Si (tiempo_en_segundos < 600) entonces:
+	a.segundos_faltantes = 600 - tiempo_en_segundos
+Sino:
+	a.Mostrar "Se tiempo es mayor de 10 minutos"
+FinSi
+Mostrar "Los segundos faltanes para llegar a 10 minutos son"
+Mostrar segundos_faltantes
+Fin

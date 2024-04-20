@@ -1,0 +1,140 @@
+*****Cree un algoritmo para ver un video en Youtube. Sea lo más especifico posible.****** 
+Ver video de youtube v1
+1.Inicio
+2. Abrir youtube
+3. Buscar el video deseado
+4. Reproducir el video
+5. Fin
+
+ Ver video de youtube v1.1
+1.Inicio
+2.Abrir youtube
+3.Buscar el video
+4.Si le gusta ver video en pantalla completa
+	a.Dar click en el boton de pantalla completa
+5.Reproducir el video
+6.Fin
+
+ Ver video de youtube v2.0
+1.Inicio
+2.Abrir YT
+	a.Abrir OperaGX
+		i.Poner el nombre de youtube en el buscador
+		ii. Tocar el link que dice YT
+		iii. Esperar a que abra YT
+3.Buscar que video quiero ver
+	a.Mover el mouse donde esta la barra de busqueda				
+	b.Dar Click en la barra de busqueda
+	c.Escribir el nombre del video
+	d.Presionar "enter"
+4.Seleccionar cual de las opciones voy reproducir
+	a.Mover el mouse al video deseado
+	b.Dar click izquierdo en el video
+5.Si le gusta ver video en pantalla completa
+	a.Mover el mouse hasta el boton de pantalla completa
+	b.Dar click en el boton
+6.Reproducir video
+7.Ver video
+8.Fin
+
+
+
+****Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones multiples y ciclos.****
+1.Inicio
+2.Despertarme a las 6:50AM
+	a.Detener la alarma del celular
+3.Levantarme de la cama
+4.Ir al baño
+	a.Lavarme los dientes
+		i.Tomar el cepillo de dientes
+		ii.Tomar la pasta de dientes
+		iii.Llenar con un poco de pasta el cepillo de dientes
+		iv.Mientras que los dientes esten sucios:
+			i.i.Limpie los dientes con el cepillo dental
+		v.Enjuagarme la boca
+		vi.Guardar el cepillo dental y la pasta
+5.Ir a la oficina y prender la computadora del trabajo
+	a.Saludar en el chat del equipo antes de las 7:00AM
+	b.Revisar las tareas pendientes
+	c.Contestar mensajes y correos
+	d.Realizar el ajuste de los horarios de mis colaboradores
+6.Preparar el desayuno
+	a.Ir a la cocina
+7.Buscar la tazon
+	a.Abrir alacena
+	b.Sacar tazon
+	c.Cerrar alacena
+7.Preparar el cereal
+	a.Buscar el cereal
+		i.Abrir la alacena
+		ii.Sacar el cereal
+	b.Servir el cereal en el tazon
+		i.Guardar el cereal en la alacena o dejarlo afuera por si quiero mas
+		ii.Cerrar la alacena
+8.Buscar la leche
+	a.Abrir el refrigerador
+		i.Buscar la leche
+		ii.Tomar la leche
+		iii.Servir la leche en el tazon
+		iv.Guardar la leche y cerrar el refrigerador
+9.Volver a trabajar y comer mientras hago las tareas diarias
+	a.Realizar todas las tareas
+	b.Terminar de comer el cereal
+	c.Seguir trabajando hasta terminar de completar las tareas
+		i.Resolver todo lo pendiente
+	d.Tomar un receso de 10 a 15 minutos
+10.Ir a la cocina y lavar el tazon del cereal
+	a. Tomar una esponja
+	b. Llenar la esponja con jabón
+	c. Tomar el plato sucio
+	d. Mientras que el plato esté sucio:
+    		i. Restriegue el plato con la esponja
+	e.Poner el plato en el escurridor 
+10.Buscar que almorzar
+	a.Si tengo comida en la alacena
+		i.Preparar la comida
+	b.Sino, buscar si quedo algo de la cena de ayer
+		i.Buscar en el refrigerador y calentar
+	c.Sino:
+		i.Mandar a pedir algo de comer
+	d.Comer
+	e.Lavarme los dientes
+	f.Tomar un descanso despues de comer
+11.Volver a trabajar
+	a.Terminar lo pendiente que tenga del dia
+	b.Terminar de trabajar
+		i.Apagar la computadora
+12.Tiempo libre
+	a.Disfrutar de mis hobbies o ver alguna pelicula
+13.Preparar la cena
+	a.Ir a la cocina
+	b.Abrir la alacena
+		i.Buscar alimentos para cocinar
+		ii.Sacar los alimentos
+	c.Cerrar la alacena
+	d.Preparar la cena y consumir la cena
+	e.Limpiar los platos y la cocina despues de la cena
+14. Mirar una serie
+	a.Escoger donde ver la serie
+	b.Si tengo el celular cargado
+		i.Buscar la serie
+	c.Si tengo el tv encendido
+		i.Buscar la serie
+	d.Sino:
+		i.Buscar la serie en mi pc
+	e.Reproducir la serie
+15.Preparme para dormir
+	a.Dejar de usar el celular y apagar todos los otros dispositivos
+	b.Ir a la cama a una hora adecuada
+	c.Dormir y preparme para el proximo dia
+15.Fin
+	
+
+
+		
+
+
+
+
+
+

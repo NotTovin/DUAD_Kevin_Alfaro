@@ -17,17 +17,20 @@ def show_menu():
     student = []
     try:
         while running:
-            display_menu()
-            option = int(input("Please choose your option: "))
+            try:
+                display_menu()
+                option = int(input("Please choose your option: "))
+            except ValueError as ex:
+                print(f'Please enter a valid option')
             match option:
                 case 1:
                     enter_student_information(students)
                 case 2:
                     check_all_students_information(students) 
                 case 3:
-                    get_students_average_scores(students) 
+                    top_3_average_scores()
                 case 4:
-                    get_average_score(students)
+                    get_students_average_scores(students)
                 case 5:
                     export_students_to_csv()
                 case 6:

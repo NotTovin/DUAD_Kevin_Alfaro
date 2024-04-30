@@ -1,4 +1,4 @@
-def enter_student_information(student):
+def enter_student_information(student_list):
     
     scores = {}
     subjects = ['Spanish', 'English', 'History', 'Science']
@@ -19,15 +19,15 @@ def enter_student_information(student):
             except ValueError:
                 print('Enter a valid number between 0 an 100')
     
-    student_list = {
+    student_dict = {
         'Name' : name,
         'Class Room' : class_room,
         'Scores' : scores
     }
     
-    student.append(student_list)
+    student_list.append(student_dict)
     print('Student added')
-    print(student)
+    print(student_list)
     
 def check_all_students_information(students):
     
@@ -51,6 +51,7 @@ def get_average_score(student, students):
     return average_score
     
 def top_3_average_scores():
+    
     print()
 
 def get_students_average_scores(students):

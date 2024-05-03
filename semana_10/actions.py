@@ -13,6 +13,9 @@ def enter_student_information(student_list):
                 score = float(input(f'Enter the score of {subject}: '))
                 if 0 <= score <= 100:
                     scores[subject] = score
+                    total_score = sum(scores.values())
+                    total_subjects = len(scores)
+                    average_score = total_score / total_subjects
                     running = False
                 else:
                     print('Enter a valid number between 0 an 100')
@@ -22,44 +25,39 @@ def enter_student_information(student_list):
     student_dict = {
         'Name' : name,
         'Class Room' : class_room,
-        'Scores' : scores
+        'Scores' : scores,
+        'Average Score' : average_score
     }
     
     student_list.append(student_dict)
     print('Student added')
     print(student_list)
     
-def check_all_students_information(students):
+def check_all_students_information(student_list):
     
-    if students:
+    if student_list:
         print("\n *** List of all the students registered ***")
-        for student in students:
+        for student in student_list:
             print(f"\nName: {student['Name']}")
             print(f"Class Room: {student['Class Room']}")
             for subject, score in student['Scores'].items():
                 print(f"{subject} : {score}")
+            print(f'Average Score: {student['Average Score']}')
     else:
         print("0 Students registered")
 
-    
-def get_average_score(student, students):
-    scores = student["Scores"]
-    total_score = sum(scores.values())
-    total_subjects = len(scores)
-    
-    average_score = total_score / total_subjects
-    return average_score
-    
 def top_3_average_scores():
-    
+    #ordenar la lista en orden al avg score
     print()
 
-def get_students_average_scores(students):
-    average_scores = []
-    for student in students:
-        average_scores.append(get_average_score(student, students))
+def get_students_average_scores(student_list):
+    total_average = 0
     
-    total_average = sum(average_scores)
-    general_average = total_average / len(students)
-    print(f'Average score among all the students: {general_average:.2f}')
-
+    for student in student_list:
+        average_score = student['Average Score']
+        total_average += average_score
+    if student_list:
+        general_average = total_average / len(student_list)
+        print(f'Average score among all the students: {general_average}')
+    else:
+        print('No students registered')

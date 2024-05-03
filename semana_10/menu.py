@@ -1,4 +1,4 @@
-from actions import get_students_average_scores, enter_student_information, check_all_students_information,top_3_average_scores, get_average_score
+from actions import get_students_average_scores, enter_student_information, check_all_students_information,top_3_average_scores
 from data import export_students_to_csv, import_students_from_csv
 
 def display_menu():
@@ -14,7 +14,6 @@ def display_menu():
 def show_menu():
     running = True
     students = []
-    student = []
     try:
         while running:
             try:

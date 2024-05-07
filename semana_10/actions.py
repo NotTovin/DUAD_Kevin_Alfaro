@@ -46,9 +46,18 @@ def check_all_students_information(student_list):
     else:
         print("0 Students registered")
 
-def top_3_average_scores():
-    #ordenar la lista en orden al avg score
-    print()
+def top_3_average_scores(student_list):
+    student_list_sorted = sorted(student_list, key=lambda student:student['Average Score'], reverse=True)
+    top_3_students = student_list_sorted[:3]
+    
+    print(f'\nTOP 3 STUDENTS WITH THE BEST AVERAGE')
+    for student in top_3_students:
+        name = student['Name']
+        class_room = student['Class Room']
+        average_score = student['Average Score']
+        print(f'Name: {name}, from classroom {class_room} with an average score of {average_score}')
+        
+        
 
 def get_students_average_scores(student_list):
     total_average = 0

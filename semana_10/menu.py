@@ -27,7 +27,7 @@ def show_menu():
                 case 2:
                     check_all_students_information(students) 
                 case 3:
-                    top_3_average_scores()
+                    top_3_average_scores(students)
                 case 4:
                     get_students_average_scores(students)
                 case 5:

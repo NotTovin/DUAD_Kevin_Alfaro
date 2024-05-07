@@ -31,9 +31,9 @@ def show_menu():
                 case 4:
                     get_students_average_scores(students)
                 case 5:
-                    export_students_to_csv()
+                    export_students_to_csv(students)
                 case 6:
-                    import_students_from_csv()
+                    students = import_students_from_csv()
                 case 7:
                     running =  False
                     exit()

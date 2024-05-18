@@ -14,31 +14,30 @@ def display_menu():
 def show_menu():
     running = True
     students = []
-    try:
-        while running:
-            try:
-                display_menu()
-                option = int(input("Please choose your option: "))
-            except ValueError as ex:
-                print(f'Please enter a valid option')
-            match option:
-                case 1:
-                    enter_student_information(students)
-                case 2:
-                    check_all_students_information(students) 
-                case 3:
-                    top_3_average_scores(students)
-                case 4:
-                    get_students_average_scores(students)
-                case 5:
-                    export_students_to_csv(students)
-                case 6:
-                    students = import_students_from_csv()
-                case 7:
-                    running =  False
-                    exit()
-                case _:
-                    exit()
-        print('Enter a valid number!')       
-    except Exception as ex:
-        print(f'An unexpected error ocurred: {ex}')
+    while running:
+        try:
+            display_menu()
+            option = int(input("Please choose your option: "))
+        except ValueError as ex:
+            print(f'Please enter a valid option')
+            continue
+            
+        match option:
+            case 1:
+                enter_student_information(students)
+            case 2:
+                check_all_students_information(students) 
+            case 3:
+                top_3_average_scores(students)
+            case 4:
+                get_students_average_scores(students)
+            case 5:
+                export_students_to_csv(students)
+            case 6:
+                students = import_students_from_csv()
+            case 7:
+                running =  False
+                print('Existing program')
+            case _:
+                    print("Invalid option. Please try again.")
+

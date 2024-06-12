@@ -8,12 +8,12 @@ import json
 
 
 def read_pokemon():
-    with open('Notion/pokemon.json', 'r') as file:
+    with open('semana_8/pokemon.json', 'r') as file:
         pokemon = json.load(file)
     return pokemon
 
 def add_pokemon(pokemon):
-    with open('Notion/pokemon.json', 'w') as file:
+    with open('semana_8/pokemon.json', 'w') as file:
         json.dump(pokemon, file, indent = 4)
         
 def main():

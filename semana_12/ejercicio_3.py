@@ -40,11 +40,10 @@ gengar = GhostPoisonPokemon('Gengar', 150)
 exeggutor = GrassPokemon('Exeggutor', 120)
 gengar.attack()
 gengar.shadow_claw()
+
 exeggutor.receive_damage(50)
 exeggutor.attack()
 exeggutor.bullet_seed()
 gengar.receive_damage(20)
 gengar.sludge_bomb()
 exeggutor.receive_damage(26)
-
-

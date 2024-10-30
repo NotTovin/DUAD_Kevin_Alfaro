@@ -1,0 +1,36 @@
+{
+    "categories": [
+        "Carro",
+        "Comida",
+        "Mascota",
+        "Diversion",
+        "Vacaciones"
+    ],
+    "movements": [
+        {
+            "description": "Mensualidad",
+            "category": "Carro",
+            "amount": 150000.0
+        },
+        {
+            "description": "Perro",
+            "category": "Mascota",
+            "amount": 12500.0
+        },
+        {
+            "description": "Colombia",
+            "category": "Vacaciones",
+            "amount": 134000.0
+        },
+        {
+            "description": "Cine",
+            "category": "Diversion",
+            "amount": 13000.0
+        },
+        {
+            "description": "Gato",
+            "category": "Mascota",
+            "amount": 12344.0
+        }
+    ]
+}
